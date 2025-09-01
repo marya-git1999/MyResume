@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans 3";
+  color: #00160f;
+}
+section {
+  padding: 48px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  height: 34px;
+}
+main {
+  padding: 48px;
+}
+.resume-header {
+  display: flex;
+  position: relative;
+  background-image: url(images/Green\ background\ png.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 288px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.content-header {
+  padding-bottom: 80px;
+}
+.content-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001f15;
+}
+.content-header p {
+  color: #003726;
+  font-size: 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.prof-img {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: -120px;
+  width: 230px;
+  height: 230px;
+  border: 12px solid white;
+  border-radius: 50%;
+}
+.prof-section {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  align-items: flex-start;
+}
+.prof-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1120px;
+}
+.col-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.sec-detail {
+  color: #001f15;
+}
+.info-detail {
+  color: #4f4f4f;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 110px;
+}
+.about-container p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about-container h2 {
+  white-space: nowrap;
+}
+.experience-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 80px;
+}
+.experience-year {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f4f4f;
+  width: 128px;
+  margin-bottom: 12px;
+}
+.experience-date {
+  display: none;
+}
+.experience-year-second {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4f4f4f;
+  width: 128px;
+  margin-bottom: 12px;
+}
+.WE-details {
+  display: flex;
+  flex-direction: column;
+  width: 902px;
+}
+.WE-details ul {
+  padding-left: 32px;
+}
+.job-title {
+  font-size: 20px;
+  color: #001f15;
+  font-weight: 400;
+  width: 318px;
+}
+.work-place {
+  color: #979797;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.WE-item {
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 16px;
+}
+a {
+  text-decoration: underline;
+  color: #009a78;
+}
+.WE-item-Instructor {
+  margin-bottom: 12px;
+  width: 902px;
+}
+.experience-nd {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+}
+.course-section {
+  width: 404px;
+}
+.year {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+}
+.course-container {
+  display: flex;
+  margin-bottom: 44px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+}
+.language-details {
+  display: flex;
+  width: 548px;
+  justify-content: space-between;
+}
+ul li {
+  margin-bottom: 44px;
+}
+.skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.skills {
+  border: 1px solid #009a78;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 12px;
+}
+.education-section {
+  width: 548px;
+}
+.education-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+  margin-bottom: 44px;
+}
+.degree {
+  font-size: 20px;
+  color: #001f15;
+}
+.institution {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+ol {
+  list-style-position: inside;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 900px) {
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .experience-year-second {
+    display: none;
+  }
+  .experience-date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    width: 128px;
+    display: flex;
+  }
+  .WE-details {
+    gap: 10px;
+  }
+  .experience-nd {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0;
+    padding-left: 32px;
+  }
+  .col-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .prof-info {
+    gap: 10px;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .education-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .education-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hobby-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+@media (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  h2 {
+    margin-bottom: 24px;
+  }
+  main {
+    padding: 16px;
+  }
+  .content-header h1 {
+    font-size: 40px;
+  }
+  .content-header p {
+    font-size: 20px;
+  }
+  .prof-img {
+    width: 190px;
+    height: 190px;
+  }
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience-year-second {
+    display: none;
+  }
+  .experience-date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    width: 128px;
+    display: flex;
+  }
+}
