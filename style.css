@@ -296,6 +296,17 @@ ol {
   .content-header p {
     font-size: 20px;
   }
+  .prof-section {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .prof-info {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .prof-info {
+    width: max-content;
+  }
   .prof-img {
     width: 190px;
     height: 190px;
@@ -303,6 +314,9 @@ ol {
   .experience-section {
     display: flex;
     flex-direction: column;
+  }
+  .experience-nd {
+    width: max-content;
   }
   .experience-year-second {
     display: none;
@@ -313,5 +327,29 @@ ol {
     color: #4f4f4f;
     width: 128px;
     display: flex;
+  }
+  .WE-details {
+    width: fit-content;
+  }
+  .WE-item-Instructor {
+    width: fit-content;
+  }
+  .course-section {
+    width: max-content;
+  }
+  .course-container {
+    flex-direction: column-reverse;
+    gap: 0px;
+  }
+  .language-details {
+    width: fit-content;
+    flex-direction: column;
+  }
+  .language-details li {
+    list-style-type: none;
+    margin-bottom: 16px;
+  }
+  .education-section {
+    width: fit-content;
   }
 }
