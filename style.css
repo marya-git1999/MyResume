@@ -22,7 +22,7 @@ main {
 .resume-header {
   display: flex;
   position: relative;
-  background-image: url(images/Green\ background\ png.jpg);
+  background-color: #161638;
   background-size: cover;
   background-position: center;
   height: 288px;
@@ -32,15 +32,15 @@ main {
   margin-bottom: 120px;
 }
 .content-header {
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 .content-header h1 {
   font-size: 48px;
   font-weight: 700;
-  color: #001f15;
+  color: #ffffff;
 }
 .content-header p {
-  color: #003726;
+  color: #ffffff;
   font-size: 24px;
   text-align: center;
   justify-content: center;
@@ -78,10 +78,11 @@ main {
 .info {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 32px;
 }
 .sec-detail {
   color: #001f15;
+  width: 112px;
 }
 .info-detail {
   color: #4f4f4f;
@@ -149,11 +150,15 @@ main {
 }
 a {
   text-decoration: underline;
-  color: #009a78;
+  color: #161638;
 }
 .WE-item-Instructor {
   margin-bottom: 12px;
-  width: 902px;
+}
+
+.nd {
+  display: flex;
+  flex-direction: column;
 }
 .experience-nd {
   display: flex;
@@ -184,6 +189,9 @@ a {
 ul li {
   margin-bottom: 44px;
 }
+.language-details ul {
+  padding-left: 18px;
+}
 .skills-container {
   width: 100%;
   display: flex;
@@ -193,7 +201,7 @@ ul li {
   flex-wrap: wrap;
 }
 .skills {
-  border: 1px solid #009a78;
+  border: 1px solid #161638;
   padding: 8px 16px;
   font-size: 16px;
   border-radius: 12px;
@@ -278,6 +286,9 @@ ol {
     flex-direction: column;
     gap: 24px;
   }
+  .WE-details {
+    width: fit-content;
+  }
 }
 @media (max-width: 600px) {
   .about-container {
@@ -289,6 +300,9 @@ ol {
   }
   main {
     padding: 16px;
+  }
+  .content-header {
+    padding-bottom: 80px;
   }
   .content-header h1 {
     font-size: 40px;
@@ -328,12 +342,7 @@ ol {
     width: 128px;
     display: flex;
   }
-  .WE-details {
-    width: fit-content;
-  }
-  .WE-item-Instructor {
-    width: fit-content;
-  }
+
   .course-section {
     width: max-content;
   }
@@ -346,7 +355,6 @@ ol {
     flex-direction: column;
   }
   .language-details li {
-    list-style-type: none;
     margin-bottom: 16px;
   }
   .education-section {
